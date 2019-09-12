@@ -16,7 +16,7 @@
     "lint"
   ],
   "scripts": {
-    "build": "esdoc;gulp build",
+    "build": "gulp build",
     "watch": "babel -w ./src/ --out-dir ./lib/",
     "rebuild": "rm -rf node_modules;npm install;gulp build",
     "tag": "VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]');git add -A; git commit -m \"Build $Version\";git push origin 4.x;git tag v$VERSION;git push origin --tags;",
