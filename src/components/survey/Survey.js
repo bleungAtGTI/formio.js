@@ -14,14 +14,7 @@ export default class SurveyComponent extends Field {
   }
 
   static get builderInfo() {
-    return {
-      title: 'Survey',
-      group: 'advanced',
-      icon: 'list',
-      weight: 110,
-      documentation: 'http://help.form.io/userguide/#survey',
-      schema: SurveyComponent.schema()
-    };
+    return null;
   }
 
   get defaultSchema() {

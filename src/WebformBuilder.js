@@ -445,18 +445,18 @@ export default class WebformBuilder extends Component {
     }
 
     // Ensure there is at least a submit button.
-    if (!value.components.length) {
-      value.components.push({
-        type: 'button',
-        label: 'Submit',
-        key: 'submit',
-        size: 'md',
-        block: false,
-        action: 'submit',
-        disableOnInvalid: true,
-        theme: 'primary'
-      });
-    }
+    // if (!value.components.length) {
+    //   value.components.push({
+    //     type: 'button',
+    //     label: 'Submit',
+    //     key: 'submit',
+    //     size: 'md',
+    //     block: false,
+    //     action: 'submit',
+    //     disableOnInvalid: true,
+    //     theme: 'primary'
+    //   });
+    // }
 
     this.webform.form = value;
     this.rebuild();

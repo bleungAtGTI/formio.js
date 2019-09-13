@@ -16,14 +16,7 @@ export default class CheckBoxComponent extends Field {
   }
 
   static get builderInfo() {
-    return {
-      title: 'Checkbox',
-      group: 'basic',
-      icon: 'check-square',
-      documentation: 'http://help.form.io/userguide/#checkbox',
-      weight: 50,
-      schema: CheckBoxComponent.schema()
-    };
+    return null;
   }
 
   get defaultSchema() {

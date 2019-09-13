@@ -8,7 +8,8 @@ export default function(...extend) {
   return textEditForm([
     {
       key: 'data',
-      components: PasswordEditData
+      components: PasswordEditData,
+      ignore: true
     },
     {
       key: 'display',

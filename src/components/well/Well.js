@@ -12,14 +12,7 @@ export default class WellComponent extends NestedComponent {
   }
 
   static get builderInfo() {
-    return {
-      title: 'Well',
-      icon: 'square-o',
-      group: 'layout',
-      documentation: 'http://help.form.io/userguide/#well',
-      weight: 60,
-      schema: WellComponent.schema()
-    };
+    return null;
   }
 
   get defaultSchema() {

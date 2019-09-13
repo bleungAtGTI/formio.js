@@ -55,15 +55,15 @@ export default [
     placeholder: 'To add a tooltip to this field, enter text here.',
     tooltip: 'Adds a tooltip to the side of this field.'
   },
-  {
-    weight: 500,
-    type: 'textfield',
-    input: true,
-    key: 'customClass',
-    label: 'Custom CSS Class',
-    placeholder: 'Custom CSS Class',
-    tooltip: 'Custom CSS class to add to this component.'
-  },
+  // {
+  //   weight: 500,
+  //   type: 'textfield',
+  //   input: true,
+  //   key: 'customClass',
+  //   label: 'Custom CSS Class',
+  //   placeholder: 'Custom CSS Class',
+  //   tooltip: 'Custom CSS class to add to this component.'
+  // },
   {
     weight: 600,
     type: 'textfield',
@@ -73,14 +73,14 @@ export default [
     placeholder: '0',
     tooltip: 'Sets the tabindex attribute of this component to override the tab order of the form. See the <a href=\\\'https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex\\\'>MDN documentation</a> on tabindex for more information.'
   },
-  {
-    weight: 1100,
-    type: 'checkbox',
-    label: 'Hidden',
-    tooltip: 'A hidden field is still a part of the form, but is hidden from view.',
-    key: 'hidden',
-    input: true
-  },
+  // {
+  //   weight: 1100,
+  //   type: 'checkbox',
+  //   label: 'Hidden',
+  //   tooltip: 'A hidden field is still a part of the form, but is hidden from view.',
+  //   key: 'hidden',
+  //   input: true
+  // },
   {
     weight: 1200,
     type: 'checkbox',
@@ -116,14 +116,14 @@ export default [
     key: 'disabled',
     input: true
   },
-  {
-    weight: 1450,
-    type: 'checkbox',
-    label: 'Always enabled',
-    tooltip: 'Make this field always enabled, even if the form is disabled',
-    key: 'alwaysEnabled',
-    input: true
-  },
+  // {
+  //   weight: 1450,
+  //   type: 'checkbox',
+  //   label: 'Always enabled',
+  //   tooltip: 'Make this field always enabled, even if the form is disabled',
+  //   key: 'alwaysEnabled',
+  //   input: true
+  // },
   {
     weight: 1500,
     type: 'checkbox',

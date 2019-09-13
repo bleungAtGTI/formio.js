@@ -16,14 +16,9 @@ export default class Sketchpad extends Field {
     }, ...extend);
   }
 
-  static builderInfo = {
-    title: 'Sketchpad',
-    group: 'premium',
-    icon: 'pencil',
-    weight: 110,
-    documentation: 'http://help.form.io/userguide/',
-    schema: Sketchpad.schema()
-  };
+  static get builderInfo() {
+    return null;
+  }
 
   static editForm = editForm;
 

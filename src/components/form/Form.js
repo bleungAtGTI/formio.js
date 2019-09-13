@@ -21,14 +21,7 @@ export default class FormComponent extends Component {
   }
 
   static get builderInfo() {
-    return {
-      title: 'Nested Form',
-      icon: 'wpforms',
-      group: 'premium',
-      documentation: 'http://help.form.io/userguide/#form',
-      weight: 110,
-      schema: FormComponent.schema()
-    };
+    return null;
   }
 
   init() {

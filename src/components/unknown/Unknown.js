@@ -11,14 +11,7 @@ export default class UnknownComponent extends Component {
   }
 
   static get builderInfo() {
-    return {
-      title: 'Custom',
-      icon: 'cubes',
-      group: 'premium',
-      documentation: 'https://help.form.io/userguide/form-components/#custom',
-      weight: 120,
-      schema: UnknownComponent.schema()
-    };
+    return null;
   }
 
   get defaultSchema() {

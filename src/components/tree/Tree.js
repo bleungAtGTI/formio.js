@@ -19,13 +19,7 @@ export default class TreeComponent extends NestedComponent {
   }
 
   static get builderInfo() {
-    return {
-      title: 'Tree',
-      icon: 'indent',
-      group: 'data',
-      weight: 40,
-      schema: TreeComponent.schema(),
-    };
+    return null;
   }
 
   constructor(...args) {

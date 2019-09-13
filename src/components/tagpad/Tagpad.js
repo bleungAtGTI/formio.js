@@ -19,14 +19,9 @@ export default class Tagpad extends NestedComponent {
     }, ...extend);
   }
 
-  static builderInfo = {
-    title: 'Tagpad',
-    group: 'premium',
-    icon: 'circle',
-    weight: 115,
-    documentation: 'http://help.form.io/userguide/',
-    schema: Tagpad.schema()
-  };
+  static get builderInfo() {
+    return null;
+  }
 
   static editForm = editForm;
 
