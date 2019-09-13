@@ -5,7 +5,7 @@ export default class HTMLComponent extends Component {
     return Component.schema({
       label: 'HTML',
       type: 'htmlelement',
-      tag: 'p',
+      tag: 'div',
       attrs: [],
       content: '',
       input: false,
@@ -13,16 +13,16 @@ export default class HTMLComponent extends Component {
     }, ...extend);
   }
 
-  // static get builderInfo() {
-  //   return {
-  //     title: 'HTML Element',
-  //     group: 'layout',
-  //     icon: 'code',
-  //     weight: 0,
-  //     documentation: 'http://help.form.io/userguide/#html-element-component',
-  //     schema: HTMLComponent.schema()
-  //   };
-  // }
+  static get builderInfo() {
+    return {
+      title: 'HTML Element',
+      group: 'basic',
+      icon: 'code',
+      weight: 0,
+      documentation: 'http://help.form.io/userguide/#html-element-component',
+      schema: HTMLComponent.schema()
+    };
+  }
 
   get defaultSchema() {
     return HTMLComponent.schema();

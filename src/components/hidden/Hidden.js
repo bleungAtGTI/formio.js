@@ -9,16 +9,9 @@ export default class HiddenComponent extends Input {
     }, ...extend);
   }
 
-  // static get builderInfo() {
-  //   return {
-  //     title: 'Hidden',
-  //     group: 'data',
-  //     icon: 'user-secret',
-  //     weight: 0,
-  //     documentation: 'http://help.form.io/userguide/#hidden',
-  //     schema: HiddenComponent.schema()
-  //   };
-  // }
+  static get builderInfo() {
+    return null;
+  }
 
   get defaultSchema() {
     return HiddenComponent.schema();

@@ -21,16 +21,9 @@ export default class ButtonComponent extends Field {
     }, ...extend);
   }
 
-  // static get builderInfo() {
-  //   return {
-  //     title: 'Button',
-  //     group: 'basic',
-  //     icon: 'stop',
-  //     documentation: 'http://help.form.io/userguide/#button',
-  //     weight: 110,
-  //     schema: ButtonComponent.schema()
-  //   };
-  // }
+  static get builderInfo() {
+    return null;
+  }
 
   get defaultSchema() {
     return ButtonComponent.schema();
